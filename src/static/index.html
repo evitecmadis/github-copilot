@@ -39,6 +39,25 @@
         </form>
         <div id="message" class="hidden"></div>
       </section>
+
+      <section id="deregister-container">
+        <h3>Deregister from an Activity</h3>
+        <form id="deregister-form">
+          <div class="form-group">
+            <label for="deregister-email">Student Email:</label>
+            <input type="email" id="deregister-email" required placeholder="your-email@mergington.edu" />
+          </div>
+          <div class="form-group">
+            <label for="deregister-activity">Select Activity:</label>
+            <select id="deregister-activity" required>
+              <option value="">-- Select an activity --</option>
+              <!-- Activity options will be loaded here -->
+            </select>
+          </div>
+          <button type="submit" class="deregister-btn">Deregister</button>
+        </form>
+        <div id="deregister-message" class="hidden"></div>
+      </section>
     </main>
 
     <footer>

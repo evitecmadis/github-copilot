@@ -117,6 +117,14 @@ button:hover {
   background-color: #3949ab;
 }
 
+.deregister-btn {
+  background-color: #c62828;
+}
+
+.deregister-btn:hover {
+  background-color: #d32f2f;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
