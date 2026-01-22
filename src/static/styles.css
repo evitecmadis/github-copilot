@@ -74,16 +74,13 @@ section h3 {
   margin-bottom: 8px;
 }
 
-.activity-card ul {
-  list-style-type: disc;
-  margin: 10px 0 0 20px;
-  padding: 0;
+.participants-list {
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
-.activity-card li {
+.participants-list li {
   margin-bottom: 5px;
-  color: #333;
-  font-size: 14px;
 }
 
 .form-group {
@@ -118,6 +115,14 @@ button {
 
 button:hover {
   background-color: #3949ab;
+}
+
+.deregister-btn {
+  background-color: #c62828;
+}
+
+.deregister-btn:hover {
+  background-color: #d32f2f;
 }
 
 .message {
